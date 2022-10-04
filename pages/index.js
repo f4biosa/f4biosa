@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Leane</title>
+        <title>f4bio.dev</title>
         <meta name="description" content="Developer Home Page" />
       </Head>
 
