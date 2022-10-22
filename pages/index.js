@@ -9,6 +9,10 @@ export default function Home() {
         <meta name="description" content="Developer Home Page" />
       </Head>
 
+<div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-align-center">
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Olá, me chamo Fábio Santos!
@@ -17,7 +21,8 @@ export default function Home() {
         <p className={styles.description}>
          Esse espaço foi criado para divulgar minhas redes sociais e os trabalhos que realizo como desenvolvedor. 
         </p>
-
+        </div>
+     </div>
         <div className={styles.grid}>
           <a href="https://github.com/f4biosa" className={styles.card}>
             <h2>/f4biosa no GitHub &rarr;</h2>
@@ -41,7 +46,9 @@ export default function Home() {
             <p>Experiência profissional aliada a formação de qualidade!</p>
           </a>
         </div>
+
       </main>
     </div>
+</div>
   )
 }
