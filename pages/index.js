@@ -25,39 +25,41 @@ export default function Home() {
           </div>
         <div className="row">
         <div className="col-lg-6 col-xs-12">
-              
-                <a href="https://github.com/f4biosa" className='card'>
+              <div className='card'>
+                
                     <div className="card-body">
-    <h2 className="card-title">/f4biosa no GitHub &rarr;</h2>
+    <h2 className="card-title"><a href="https://github.com/f4biosa" >/f4biosa no GitHub &rarr;</a></h2>
                       <p className="card-text">Aqui você encontra meus repositórios de código-fonte</p>
 </div>
-                </a>
+   </div>
         </div>
         <div className="col-lg-6 col-xs-12">
-                <a href="https://twitter.com/f4bio_sa" className='card'>
+            <div className='card'>
+                
                     <div className="card-body">
-    <h2 className="card-title">@f4bio_sa no Twitter &rarr;</h2>
+    <h2 className="card-title"><a href="https://twitter.com/f4bio_sa" >@f4bio_sa</a> no Twitter &rarr;</h2>
                    <p className="card-text">Apenas acompanho alguns assuntos polêmicos</p>
 </div>
-                </a>
+</div>
               </div>
 
 
               <div className="col-lg-6 col-xs-12">
-                <a href="https://www.instagram.com/f4bio.sa/" className='card'>
+                  <div className='card'> 
+                
                     <div className="card-body">
-    <h2 className="card-title">@f4bio.sa no Insta&rarr;</h2>
+    <h2 className="card-title"><a href="https://www.instagram.com/f4bio.sa/" >@f4bio.sa</a> no Insta&rarr;</h2>
                    <p className="card-text">Um pouco da minha rotina.</p>
 </div>
-                </a>
+              </div>
 </div>
 <div className="col-lg-6 col-xs-12">
-                <a href="https://www.linkedin.com/in/f4bio/" className='card'>
+               <div> className='card'>
                     <div className="card-body">
-    <h2 className="card-title">/in/f4bio/ no LinkedIn &rarr;</h2>
+    <h2 className="card-title"> <a href="https://www.linkedin.com/in/f4bio/">/in/f4bio/</a> no LinkedIn &rarr;</h2>
                    <p className="card-text">Experiência profissional aliada a formação de qualidade!</p>
 </div>
-                </a>
+                </div>
 
               </div>
 </div>
