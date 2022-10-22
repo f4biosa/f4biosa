@@ -22,7 +22,7 @@ return (
                     </p>
                 </div>
             </div>
-        </div>
+        
         <div className="row">
             <div className="col-lg-6 col-xs-12">
                 <div className="card">
@@ -62,6 +62,7 @@ return (
 
             </div>
         </div>
+    </div>
     </main>
 </div>
 )
