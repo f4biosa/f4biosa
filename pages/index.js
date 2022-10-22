@@ -28,10 +28,8 @@ export default function Home() {
               
                 <a href="https://github.com/f4biosa" className='card'>
                     <div className="card-body">
-    <h5 className="card-title">
-                  /f4biosa no GitHub &rarr;</h5>
-                      <p class="card-text"
-                  Aqui você encontra meus repositórios de código-fonte</p>
+    <h5 className="card-title">/f4biosa no GitHub &rarr;</h5>
+                      <p className="card-text">Aqui você encontra meus repositórios de código-fonte</p>
 </div>
                 </a>
         </div>
