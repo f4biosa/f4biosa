@@ -1,13 +1,13 @@
 export default function Home() {
 return (
 <div>
-    <div className="px-4 py-5 my-5 text-center">
+    <div className="py-5 my-5 text-center">
             <h1 className="display-5 fw-bold"> Olá, me chamo Fábio Santos!</h1>
             <div className="col-lg-6 mx-auto">
                 <p className="lead mb-4">Esse espaço foi criado para divulgar minhas redes sociais e os trabalhos que realizo como desenvolvedor.</p>
             </div>
     </div>
-    <div className="container px-2 py-5" id='feature-1'>
+    <div className="container" id='feature-1'>
         <div className="row g-4 py-5 row-cols-1 row-cols-lg-2">
                 <div className="feature col">
                     <h6 className="fs-2"><a href="https://github.com/f4biosa" >/f4biosa</a> no GitHub &rarr;</h6>
