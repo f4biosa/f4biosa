@@ -1,15 +1,15 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+//import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div class="container">
       <Head>
         <title>f4bio.dev</title>
         <meta name="description" content="Developer Home Page" />
       </Head>
 
-<div class="container">
+
       <div class="row">
         <div class="col-xs-12 text-align-center">
 
