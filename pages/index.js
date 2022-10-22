@@ -8,7 +8,7 @@ return (
         <title>f4bio.dev</title>
         <meta name="description" content="Developer Home Page" />
     </Head>
-    <main className={styles.main}>
+    <main>
         <div className="container">
             <div className="row">
 
