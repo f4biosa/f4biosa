@@ -13,11 +13,11 @@ export default function Home() {
             <div className="row">
           
               <div className="col-xs-12 text-align-center">
-                  <h1 className={styles.title}>
+                  <h1 className='hero-title'>
                     Olá, me chamo Fábio Santos!
                   </h1>
 
-                  <p className={styles.description}>
+                  <p className='hero-description'>
                    Esse espaço foi criado para divulgar minhas redes sociais e os trabalhos que realizo como desenvolvedor. 
                   </p>
                 </div>
