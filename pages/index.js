@@ -26,9 +26,13 @@ export default function Home() {
         <div className="row">
         <div className="col-lg-6 col-xs-12">
               
-                <a href="https://github.com/f4biosa" className={styles.card}>
-                  <h2>/f4biosa no GitHub &rarr;</h2>
-                  <p>Aqui você encontra meus repositórios de código-fonte</p>
+                <a href="https://github.com/f4biosa" className='card'>
+                    <div className="card-body">
+    <h5 className="card-title">
+                  /f4biosa no GitHub &rarr;</h5>
+                      <p class="card-text"
+                  Aqui você encontra meus repositórios de código-fonte</p>
+</div>
                 </a>
         </div>
         <div className="col-lg-6 col-xs-12">
