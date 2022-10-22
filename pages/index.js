@@ -8,7 +8,7 @@ export default function Home() {
         <title>f4bio.dev</title>
         <meta name="description" content="Developer Home Page" />
       </Head>
-<div className="container"">
+<div className="container">
 
       <div className="row">
         <div className="col-xs-12 text-align-center">
