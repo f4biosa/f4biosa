@@ -3,15 +3,15 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div class="container">
+    <div>
       <Head>
         <title>f4bio.dev</title>
         <meta name="description" content="Developer Home Page" />
       </Head>
+<div className="container"">
 
-
-      <div class="row">
-        <div class="col-xs-12 text-align-center">
+      <div className="row">
+        <div className="col-xs-12 text-align-center">
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -22,7 +22,6 @@ export default function Home() {
          Esse espaço foi criado para divulgar minhas redes sociais e os trabalhos que realizo como desenvolvedor. 
         </p>
         </div>
-     </div>
         <div className={styles.grid}>
           <a href="https://github.com/f4biosa" className={styles.card}>
             <h2>/f4biosa no GitHub &rarr;</h2>
@@ -48,6 +47,7 @@ export default function Home() {
         </div>
 
       </main>
+</div>
     </div>
 </div>
   )
